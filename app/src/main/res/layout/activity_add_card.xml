@@ -4,25 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
-    <TextView
-        android:id="@+id/flashcard_question"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:gravity="center"
-        android:text="How tall is the tallest man in the world?"
-        android:textSize="40sp" />
-
-    <TextView
-        android:id="@+id/flashcard_answer"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:visibility="invisible"
-        android:gravity="center"
-        android:text="8ft, 2.52 inches"
-        android:textSize="40sp" />
+    tools:context=".AddCardActivity">
 
     <ImageView
         android:id="@+id/myx"
@@ -52,11 +34,30 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="200dp"
-        android:layout_marginRight="403dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginRight="273dp"
+        android:layout_marginBottom="7dp"
         android:src="@drawable/save" />
 
+    <EditText
+        android:id="@+id/Question"
+        android:layout_width="483dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the Question Here"
+        android:inputType="textMultiLine" />
 
+    <EditText
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter the Answer"
+        android:inputType="textMultiLine" />
 
 
 </RelativeLayout>
