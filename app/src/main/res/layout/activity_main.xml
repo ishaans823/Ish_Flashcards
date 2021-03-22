@@ -56,7 +56,14 @@
         android:layout_marginBottom="15dp"
         android:src="@drawable/save" />
 
-
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="153dp"
+        android:layout_height="82dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-28dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/ic_arrow" />
 
 
 </RelativeLayout>
