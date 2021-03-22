@@ -7,7 +7,7 @@ User can now store cards and they will save. Also, they can switch between cards
 
 ### App Walk-though
 
-<img src="file:///C:/Users/Ishaa/OneDrive/Desktop/lab3.gif" width=200><br>
+<img src="https://github.com/ishaans823/Ish_Flashcards/blob/master/lab3.gif width=200><br>
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
